@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7207029A-E31B-49C4-BE0D-5CE0528E7223}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AdminPart</RootNamespace>
+    <AssemblyName>AdminPart</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="ArtOfTest.WebAii" />
+    <Reference Include="ArtOfTest.WebAii.Design" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Telerik.WebAii.Controls.Html" />
+    <Reference Include="Telerik.WebAii.Controls.Xaml" />
+    <Reference Include="Telerik.TestingFramework.Controls.KendoUI" />
+    <Reference Include="Telerik.WebAii.Controls.Xaml.Wpf" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasicModules\Class1.cs" />
+    <Compile Include="BasicModules\TestTest.cs" />
+    <Compile Include="Certificates\Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SoftwareAcademy\Class1.cs" />
+    <Compile Include="SoftwareAcademy\Common\README.cs" />
+    <None Include="BasicModules\Common\LoginAndNavigateToAdminSettings.tstest" />
+    <None Include="BasicModules\Settings\AssertAdminSettingsButtonsExist.tstest" />
+    <None Include="BasicModules\Settings\AssertNewSettingFieldsRequired.tstest" />
+    <None Include="BasicModules\Settings\VerifyCanCreateAndModifyNewSetting.tstest" />
+    <None Include="BasicModules\Settings\VerifyIsSoftwareAcademyCandidateFormOpenedFunctionalityWorks.tstest" />
+    <None Include="Profiler Configurations\{f50892aa-59e9-4b6f-8856-31249dbdad35}.tsprofconfig" />
+    <None Include="Settings.aiis" />
+    <None Include="SoftwareAcademy\Common\GetToEntranceExams.tstest" />
+    <None Include="SoftwareAcademy\Common\GetToEntranceExams_Create.tstest" />
+    <None Include="SoftwareAcademy\Common\GetToEntranceExams_Users.tstest" />
+    <None Include="SoftwareAcademy\EntranceExam\AddExamWithExpiredStartDate.tstest" />
+    <None Include="SoftwareAcademy\EntranceExam\AddExamWithNoConfiguration.tstest" />
+    <None Include="SoftwareAcademy\EntranceExam\AddExamWithoutHall.tstest" />
+    <None Include="SoftwareAcademy\EntranceExam\AddExamWithSameConfigurationID.tstest" />
+    <None Include="SoftwareAcademy\EntranceExam\AddExamWithZeroNegativeStudents.tstest" />
+    <None Include="SoftwareAcademy\EntranceExam\AddingNewUserWindow.tstest" />
+    <None Include="SoftwareAcademy\EntranceExam\AddStudentPopUp.tstest" />
+    <None Include="SoftwareAcademy\EntranceExam\AddStudentsWithStringValueStudentLimit.tstest" />
+    <None Include="SoftwareAcademy\EntranceExam\CloseCreateExamWindow.tstest" />
+    <None Include="SoftwareAcademy\EntranceExam\CorrectHallValueIsSelected.tstest" />
+    <None Include="SoftwareAcademy\EntranceExam\DeleteExamDialogBoxAppears.tstest" />
+    <None Include="SoftwareAcademy\EntranceExam\RedirectUsingBackToAdministrationButton.tstest" />
+    <None Include="SoftwareAcademy\EntranceExam\RemoveUserDialog.tstest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BasicModules\Common\LoginAndNavigateToAdminSettings.resx">
+      <DependentUpon>LoginAndNavigateToAdminSettings.tstest</DependentUpon>
+    </None>
+    <None Include="BasicModules\Settings\AssertAdminSettingsButtonsExist.resx">
+      <DependentUpon>AssertAdminSettingsButtonsExist.tstest</DependentUpon>
+    </None>
+    <None Include="BasicModules\Settings\AssertNewSettingFieldsRequired.resx">
+      <DependentUpon>AssertNewSettingFieldsRequired.tstest</DependentUpon>
+    </None>
+    <None Include="BasicModules\Settings\VerifyCanCreateAndModifyNewSetting.resx">
+      <DependentUpon>VerifyCanCreateAndModifyNewSetting.tstest</DependentUpon>
+    </None>
+    <None Include="BasicModules\Settings\VerifyIsSoftwareAcademyCandidateFormOpenedFunctionalityWorks.resx">
+      <DependentUpon>VerifyIsSoftwareAcademyCandidateFormOpenedFunctionalityWorks.tstest</DependentUpon>
+    </None>
+    <None Include="SoftwareAcademy\Common\GetToEntranceExams.resx">
+      <DependentUpon>GetToEntranceExams.tstest</DependentUpon>
+    </None>
+    <None Include="SoftwareAcademy\Common\GetToEntranceExams_Create.resx">
+      <DependentUpon>GetToEntranceExams_Create.tstest</DependentUpon>
+    </None>
+    <None Include="SoftwareAcademy\Common\GetToEntranceExams_Users.resx">
+      <DependentUpon>GetToEntranceExams_Users.tstest</DependentUpon>
+    </None>
+    <None Include="SoftwareAcademy\EntranceExam\AddExamWithExpiredStartDate.resx">
+      <DependentUpon>AddExamWithExpiredStartDate.tstest</DependentUpon>
+    </None>
+    <None Include="SoftwareAcademy\EntranceExam\AddExamWithNoConfiguration.resx">
+      <DependentUpon>AddExamWithNoConfiguration.tstest</DependentUpon>
+    </None>
+    <None Include="SoftwareAcademy\EntranceExam\AddExamWithoutHall.resx">
+      <DependentUpon>AddExamWithoutHall.tstest</DependentUpon>
+    </None>
+    <None Include="SoftwareAcademy\EntranceExam\AddExamWithSameConfigurationID.resx">
+      <DependentUpon>AddExamWithSameConfigurationID.tstest</DependentUpon>
+    </None>
+    <None Include="SoftwareAcademy\EntranceExam\AddExamWithZeroNegativeStudents.resx">
+      <DependentUpon>AddExamWithZeroNegativeStudents.tstest</DependentUpon>
+    </None>
+    <None Include="SoftwareAcademy\EntranceExam\AddingNewUserWindow.resx">
+      <DependentUpon>AddingNewUserWindow.tstest</DependentUpon>
+    </None>
+    <None Include="SoftwareAcademy\EntranceExam\AddStudentPopUp.resx">
+      <DependentUpon>AddStudentPopUp.tstest</DependentUpon>
+    </None>
+    <None Include="SoftwareAcademy\EntranceExam\AddStudentsWithStringValueStudentLimit.resx">
+      <DependentUpon>AddStudentsWithStringValueStudentLimit.tstest</DependentUpon>
+    </None>
+    <None Include="SoftwareAcademy\EntranceExam\CloseCreateExamWindow.resx">
+      <DependentUpon>CloseCreateExamWindow.tstest</DependentUpon>
+    </None>
+    <None Include="SoftwareAcademy\EntranceExam\CorrectHallValueIsSelected.resx">
+      <DependentUpon>CorrectHallValueIsSelected.tstest</DependentUpon>
+    </None>
+    <None Include="SoftwareAcademy\EntranceExam\DeleteExamDialogBoxAppears.resx">
+      <DependentUpon>DeleteExamDialogBoxAppears.tstest</DependentUpon>
+    </None>
+    <None Include="SoftwareAcademy\EntranceExam\RedirectUsingBackToAdministrationButton.resx">
+      <DependentUpon>RedirectUsingBackToAdministrationButton.tstest</DependentUpon>
+    </None>
+    <None Include="SoftwareAcademy\EntranceExam\RemoveUserDialog.resx">
+      <DependentUpon>RemoveUserDialog.tstest</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Name="AdminPart" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Project="$(MSBuildExtensionsPath)\Telerik\WebUITestStudio\Telerik.WebUITestStudio.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>taskkill /F /IM vstest.executionengine.x86.exe /FI "MEMUSAGE gt 1"</PreBuildEvent>
+  </PropertyGroup>
+</Project>

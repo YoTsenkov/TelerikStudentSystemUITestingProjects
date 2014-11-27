@@ -1,0 +1,81 @@
+﻿<table border="1" style="border-collapse:collapse">
+<tr style="background:#A9A9A9">
+<td style="background:#A9A9A9">Test Path</td><td style="background:#A9A9A9">Browser</td><td style="background:#A9A9A9">End Time</td><td style="background:#A9A9A9">Passed/Total</td><td style="background:#A9A9A9">Result</td><td style="background:#A9A9A9">Failure info</td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q01\InvalidData_ЗащоРешихте...VerifyLocalMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:39:49 PM</td><td style="text-align:left">"6/6"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q01\InvalidData_ЗащоРешихте...VerifyMainMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:40:24 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q01\ValidData_ЗащоРешихте...VerifyNoErrorMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:40:55 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q02\InvalidData_ОтКолкоВреме...VerifyLocalMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:42:02 PM</td><td style="text-align:left">"6/6"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q02\InvalidData_ОтКолкоВреме...VerifyMainMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:42:37 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q02\ValidData_ОтКолкоВреме...VerifyNoErrorMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:43:06 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q03\InvalidData_КолкоВреме...учите...VerifyLocalMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:44:10 PM</td><td style="text-align:left">"6/6"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q03\InvalidData_КолкоВреме...учите...VerifyMainMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:44:45 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q03\ValidData_КолкоВреме...учите...VerifyNoErrorMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:45:15 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q04\InvalidData_КолкоВреме...работите...VerifyLocalMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:46:20 PM</td><td style="text-align:left">"6/6"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q04\InvalidData_КолкоВреме...работите...VerifyMainMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:46:55 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q04\ValidData_КолкоВреме...работите...VerifyNoErrorMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:47:25 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q05\InvalidData_КаквоЗнаете...VerifyLocalMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:48:34 PM</td><td style="text-align:left">"6/6"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q05\InvalidData_КаквоЗнаете...VerifyMainMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:49:10 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q05\ValidData_КаквоЗнаете...VerifyNoErrorMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:49:40 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q06\InvalidData_Друго_ЗащоКандидатствате...LocalMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:50:16 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q06\InvalidData_Друго_ЗащоКандидатствате...MainMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:50:54 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q06\NoSelected_ЗащоКандидатствате...LocalMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:51:48 PM</td><td style="text-align:left">"0/3"</td><td style="color:#FF0000;text-align:left">Fail</td><td style="text-align:left">Unable to locate element. Details: Attempting to find [Html] element using 
+Find logic 
+ (Html): [id 'Exact' SecondName] AND [tagname 'Exact' input]
+
+Unable to locate element. Search failed!
+
+Learn more about finding elements here:
+http://www.telerik.com/automated-testing-tools/support/documentation/user-guide/troubleshooting_guide/test-execution-problems/unable-to-locate-element.aspx</td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q06\NoSelected_ЗащоКандидатствате...MainMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:52:24 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q07\InvalidData_Друго_КаквоМислите...LocalMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:53:02 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q07\InvalidData_Друго_КаквоМислите...MainMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:53:39 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q07\NoSelected_КаквоМислите...LocalMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:54:16 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q07\NoSelected_КаквоМислите...MainMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:54:52 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q08\NoSelected_СкаквоСвързвате...LocalMsg .tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:55:28 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q08\NoSelected_СкаквоСвързвате...MainMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:56:05 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q09\InvalidData_Друго_ОткъдеНаучихте...LocalMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:56:41 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q09\InvalidData_Друго_ОткъдеНаучихте...MainMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:57:18 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q09\NoSelected_ОткъдеНаучихте...LocalMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:57:55 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q09\NoSelected_ОткъдеНаучихте...MainMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:58:31 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q10\NoSelected_КандидатствалиЛиСте...LocalMsg .tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:58:54 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q10\NoSelected_КандидатствалиЛиСте...MainMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:59:15 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q10\Selected_КандидатствалиЛиСте...NoErrorMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:59:31 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q11\NoSelected_СкаквоНайВече...LocalMsg .tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 1:59:52 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q11\NoSelected_СкаквоНайВече...MainMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 2:00:13 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+<tr>
+<td style="text-align:left">SoftwareAcademy\ApplicationForAcademy\AdditionalQuestions\Q11\Selected_СкаквоНайВече...NoErrorMsg.tstest</td><td style="text-align:left">InternetExplorer</td><td style="text-align:left">10/13/2014 2:00:28 PM</td><td style="text-align:left">"3/3"</td><td style="color:#008000;text-align:left">Pass</td><td style="text-align:left"></td></tr>
+</table>
