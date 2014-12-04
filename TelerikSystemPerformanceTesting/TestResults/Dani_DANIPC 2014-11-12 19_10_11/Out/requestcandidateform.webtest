@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="RequestCandidateForm" Id="e12ce241-b795-46be-b88e-117e06336978" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.a9d1b166-1ec2-4c9c-96c1-acddf1620bfa.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <IncludedWebTest Name="Login" Path="login.webtest" Id="1f470529-dbd2-4343-8db7-8dd3d839ad6a" IsCodedWebTest="False" InheritWebTestSettings="False" />
+    <IncludedWebTest Name="Candidate" Path="candidate.webtest" Id="fd19705e-a275-42ac-b7f3-77695d303620" IsCodedWebTest="False" InheritWebTestSettings="False" />
+    <IncludedWebTest Name="Logout" Path="logout.webtest" Id="913d3992-93c2-4990-a255-c4b16a062360" IsCodedWebTest="False" InheritWebTestSettings="False" />
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

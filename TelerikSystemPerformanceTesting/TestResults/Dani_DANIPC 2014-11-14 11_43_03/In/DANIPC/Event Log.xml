@@ -1,0 +1,115 @@
+﻿<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1" msdata:Locale="" msprop:TimestampColumnName="DateTime" msprop:IndexColumnNames="Source,Type">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Type" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="64" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="DateTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Source" minOccurs="0">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="212" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Category" type="xs:string" minOccurs="0" />
+                <xs:element name="EventID" type="xs:long" minOccurs="0" />
+                <xs:element name="Description" type="xs:string" minOccurs="0" />
+                <xs:element name="User" type="xs:string" minOccurs="0" />
+                <xs:element name="Computer" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <Type>Warning</Type>
+    <DateTime>2014-11-14T11:43:07+02:00</DateTime>
+    <Source>Perflib</Source>
+    <Category>(0)</Category>
+    <EventID>2147485651</EventID>
+    <Description>The description for Event ID '-2147481645' in Source 'Perflib' cannot be found.  The local computer may not have the necessary registry information or message DLL files to display the message, or you may not have permission to access them.  The following information is part of the event:'perf-MSSQLSERVER-sqlctr12.0.2000.8.dll', 'MSSQLSERVER'</Description>
+    <Computer>DaniPC</Computer>
+  </Table1>
+  <Table1>
+    <Type>Error</Type>
+    <DateTime>2014-11-14T11:43:08+02:00</DateTime>
+    <Source>Perflib</Source>
+    <Category>(0)</Category>
+    <EventID>3221226495</EventID>
+    <Description>The description for Event ID '-1073740801' in Source 'Perflib' cannot be found.  The local computer may not have the necessary registry information or message DLL files to display the message, or you may not have permission to access them.  The following information is part of the event:'rdyboost', '4'</Description>
+    <Computer>DaniPC</Computer>
+  </Table1>
+  <Table1>
+    <Type>Warning</Type>
+    <DateTime>2014-11-14T11:43:08+02:00</DateTime>
+    <Source>Perflib</Source>
+    <Category>(0)</Category>
+    <EventID>2147485651</EventID>
+    <Description>The description for Event ID '-2147481645' in Source 'Perflib' cannot be found.  The local computer may not have the necessary registry information or message DLL files to display the message, or you may not have permission to access them.  The following information is part of the event:'perf-ReportServer-rsctr12.0.2000.8.dll', 'ReportServer'</Description>
+    <Computer>DaniPC</Computer>
+  </Table1>
+  <Table1>
+    <Type>Warning</Type>
+    <DateTime>2014-11-14T11:47:20+02:00</DateTime>
+    <Source>Software Protection Platform Service</Source>
+    <Category>(0)</Category>
+    <EventID>1073750057</EventID>
+    <Description>The rules engine reported a failed VL activation attempt.
+Reason:0xC004F074
+AppId = 0ff1ce15-a989-479d-af46-f275c6370663, SkuId = b322da9c-a2e2-4058-9e4e-f59a6970bd69
+Trigger=TimerEvent</Description>
+    <Computer>DaniPC</Computer>
+  </Table1>
+  <Table1>
+    <Type>Error</Type>
+    <DateTime>2014-11-14T11:49:54+02:00</DateTime>
+    <Source>DCOM</Source>
+    <Category>(0)</Category>
+    <EventID>10010</EventID>
+    <Description>The description for Event ID '10010' in Source 'DCOM' cannot be found.  The local computer may not have the necessary registry information or message DLL files to display the message, or you may not have permission to access them.  The following information is part of the event:'{BF6C1E47-86EC-4194-9CE5-13C15DCB2001}'</Description>
+    <User>DaniPC\Dani</User>
+    <Computer>DaniPC</Computer>
+  </Table1>
+  <Table1>
+    <Type>Error</Type>
+    <DateTime>2014-11-14T11:50:24+02:00</DateTime>
+    <Source>DCOM</Source>
+    <Category>(0)</Category>
+    <EventID>10010</EventID>
+    <Description>The description for Event ID '10010' in Source 'DCOM' cannot be found.  The local computer may not have the necessary registry information or message DLL files to display the message, or you may not have permission to access them.  The following information is part of the event:'{1B1F472E-3221-4826-97DB-2C2324D389AE}'</Description>
+    <User>DaniPC\Dani</User>
+    <Computer>DaniPC</Computer>
+  </Table1>
+  <Table1>
+    <Type>Error</Type>
+    <DateTime>2014-11-14T12:00:28+02:00</DateTime>
+    <Source>DCOM</Source>
+    <Category>(0)</Category>
+    <EventID>10010</EventID>
+    <Description>The description for Event ID '10010' in Source 'DCOM' cannot be found.  The local computer may not have the necessary registry information or message DLL files to display the message, or you may not have permission to access them.  The following information is part of the event:'{1B1F472E-3221-4826-97DB-2C2324D389AE}'</Description>
+    <User>DaniPC\Dani</User>
+    <Computer>DaniPC</Computer>
+  </Table1>
+  <Table1>
+    <Type>Error</Type>
+    <DateTime>2014-11-14T12:00:58+02:00</DateTime>
+    <Source>DCOM</Source>
+    <Category>(0)</Category>
+    <EventID>10010</EventID>
+    <Description>The description for Event ID '10010' in Source 'DCOM' cannot be found.  The local computer may not have the necessary registry information or message DLL files to display the message, or you may not have permission to access them.  The following information is part of the event:'{BF6C1E47-86EC-4194-9CE5-13C15DCB2001}'</Description>
+    <User>DaniPC\Dani</User>
+    <Computer>DaniPC</Computer>
+  </Table1>
+</NewDataSet>

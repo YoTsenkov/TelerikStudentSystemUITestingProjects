@@ -1,0 +1,9 @@
+E:\Telerik\QA\TFServer Source\TelerikSystem.TestingFramework\TelerikSystem.Core\bin\Debug\TelerikSystem.Core.dll
+E:\Telerik\QA\TFServer Source\TelerikSystem.TestingFramework\TelerikSystem.Core\bin\Debug\TelerikSystem.Core.pdb
+E:\Telerik\QA\TFServer Source\TelerikSystem.TestingFramework\TelerikSystem.Core\obj\Debug\TelerikSystem.Core.csprojResolveAssemblyReference.cache
+E:\Telerik\QA\TFServer Source\TelerikSystem.TestingFramework\TelerikSystem.Core\obj\Debug\TelerikSystem.Core.dll
+E:\Telerik\QA\TFServer Source\TelerikSystem.TestingFramework\TelerikSystem.Core\obj\Debug\TelerikSystem.Core.pdb
+E:\Telerik\QA\TFServer Source\TelerikSystem.TestingFramework\TelerikSystem.Core\bin\Debug\TestingFramework.Core.dll
+E:\Telerik\QA\TFServer Source\TelerikSystem.TestingFramework\TelerikSystem.Core\bin\Debug\TestingFramework.Core.pdb
+E:\Telerik\QA\TFServer Source\TelerikSystem.TestingFramework\TelerikSystem.Core\bin\Debug\nunit.framework.dll
+E:\Telerik\QA\TFServer Source\TelerikSystem.TestingFramework\TelerikSystem.Core\bin\Debug\nunit.framework.xml

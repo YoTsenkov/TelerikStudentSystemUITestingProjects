@@ -1,9 +1,0 @@
-E:\Telerik\QA\TFServer Source\TelerikSystem.TestingFramework\TelerikSystem.Tests\bin\Debug\TelerikSystem.Tests.dll
-E:\Telerik\QA\TFServer Source\TelerikSystem.TestingFramework\TelerikSystem.Tests\bin\Debug\TelerikSystem.Tests.pdb
-E:\Telerik\QA\TFServer Source\TelerikSystem.TestingFramework\TelerikSystem.Tests\obj\Debug\TelerikSystem.Tests.csprojResolveAssemblyReference.cache
-E:\Telerik\QA\TFServer Source\TelerikSystem.TestingFramework\TelerikSystem.Tests\obj\Debug\TelerikSystem.Tests.dll
-E:\Telerik\QA\TFServer Source\TelerikSystem.TestingFramework\TelerikSystem.Tests\obj\Debug\TelerikSystem.Tests.pdb
-E:\Telerik\QA\TFServer Source\TelerikSystem.TestingFramework\TelerikSystem.Tests\bin\Debug\TelerikSystem.Core.dll
-E:\Telerik\QA\TFServer Source\TelerikSystem.TestingFramework\TelerikSystem.Tests\bin\Debug\TestingFramework.Core.dll
-E:\Telerik\QA\TFServer Source\TelerikSystem.TestingFramework\TelerikSystem.Tests\bin\Debug\TelerikSystem.Core.pdb
-E:\Telerik\QA\TFServer Source\TelerikSystem.TestingFramework\TelerikSystem.Tests\bin\Debug\TestingFramework.Core.pdb
